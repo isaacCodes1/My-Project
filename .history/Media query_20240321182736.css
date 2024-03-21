@@ -1,0 +1,163 @@
+@media (max-width: 488px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    background: #dbdbdb;
+  }
+  .navItems {
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+  }
+  .navItems ul {
+    gap: 15px;
+    color: #fff;
+    border: 1px solid #000;
+  }
+  .navItems ul li a {
+    font-size: 13px;
+  }
+  .welcome {
+    font-size: 20px;
+  }
+  .firstPageCont {
+    padding: 0px;
+  }
+  .FirstPage {
+    flex-direction: column;
+    height: auto;
+    padding: 0px;
+  }
+
+  .txtCont h1 {
+    font-size: 50px;
+    width: 100%;
+  }
+  .txtCont p {
+    font-size: 15px;
+  }
+  .btns {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .imgCont {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+  .spn1 {
+    display: flex;
+    align-items: center;
+    background-image: url(/Assets/Pics/rectangle1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+  }
+  .spn2 {
+    background-image: url(/Assets/Pics/Rectangle2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .logoCont {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .logoCont img {
+    width: 10%;
+  }
+  .prettyImages {
+    display: flex;
+    flex-direction: column;
+  }
+  .nextPageText img {
+    position: absolute;
+    bottom: 10px;
+    left: 120px;
+    width: 30%;
+    z-index: -1;
+  }
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .genDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .yellowImg img {
+    width: 100%;
+  }
+  .yellowTxt h1 {
+    font-size: 40px;
+  }
+  .spn3 {
+    width: 200px;
+  }
+  .yellowTxt p {
+    font-size: 15px;
+  }
+  .btn {
+    font-size: 12px;
+  }
+  .nextPageCont2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .nextPageText2 {
+    margin-left: 0;
+  }
+  .nextPageText2 h1 {
+    font-size: 25px;
+  }
+  .prettyImg2 {
+    display: none;
+  }
+  .footerDiv {
+    margin-left: 0;
+  }
+  .h1footer {
+    font-size: 11px;
+    text-align: 20px;
+  }
+  .pFooter p {
+    font-size: 10px;
+    margin-bottom: 2 0px;
+  }
+  .input {
+    width: 90%;
+  }
+  .input::placeholder {
+    font-size: 12px;
+  }
+  .input a {
+    font-size: 5px;
+  }
+  .footDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .links {
+    margin-left: 5px;
+  }
+  .icon {
+    margin-bottom: 20px;
+  }
+  .icon img {
+    width: 30px;
+  }
+  .links1 a {
+    font-size: 15px;
+  }
+  .featuredTxt h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .featuredImg img {
+    display: flex;
+    flex-direction: column;
+  }
+}

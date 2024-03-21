@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Media query.css" />
+    <title>Home Page.</title>
+  </head>
+  <body>
+    
+    
+    <main>
+      <header>
+        <nav>
+          <!--------- NavItems ------->
+          <div class="image">
+            <a href="index.html"
+              ><img src="/Assets/Pics/Vector (3).png" />FASHION</a
+            >
+          </div>
+          <div class="navItems">
+            <ul>
+              <li><a href="catalogue.html">CATALOGUE</a></li>
+              <li><a href="fashion.html">FASHION</a></li>
+              <li><a href="favourite.html">FAVORITE</a></li>
+              <li><a href="lifestyle.html">LIFESTYLE</a></li>
+              <li><a href="FAQ.html">FAQ'S</a></li>
+            </ul>
+            <a href="form.html"><button>SIGN UP</button></a>
+          </div>
+        </nav>
+      </header>
+    </main>
+    <!------- FirstPage ------>
+    <section class="firstPageCont">
+      <div class="FirstPage">
+        <div class="txtCont">
+          <h1>
+            <span class="spn1">LET'S <br /></span>EXPLORE <br />
+            <span class="spn2">UNIQUE <br /></span>CLOTHES.
+          </h1>
+          <p>Live for Influential and Innovative fashion!</p>
+          <div class="txtBtn">
+            <img src="/Assets/Pics/Vector 9.png" alt="" />
+            <a href="catalogue.html"><button class="btns">Shop Now</button></a>
+          </div>
+        </div>
+        <div class="imgCont">
+          <div class="star1"><img src="/Assets/Star 11.png" alt="" /></div>
+          <div class="star2"><img src="/Assets/Star 11.png" alt="" /></div>
+          <div class="star3"><img src="/Assets/Star 11.png" alt="" /></div>
+          <div class="star4"><img src="/Assets/Star 11.png" alt="" /></div>
+          <img src="/Assets/Pics/girl.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!------ Logos ------->
+    <section class="firstPageFooter">
+      <div class="logoCont">
+        <img src="/Assets/Pics/HM.png" alt="" />
+        <img src="/Assets/Pics/Obey.png" alt="" />
+        <img src="/Assets/Pics/Shopify.png" alt="" />
+        <img src="/Assets/Pics/Lacoste.png" alt="" />
+        <img src="/Assets/Pics/Levis.png" alt="" />
+        <img src="/Assets/Pics/Amazon.png" alt="" />
+      </div>
+    </section>
+    <!--------JavaScript for Toggle Menu---------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+          navLinks.style.right = "0";
+        }
+        function hideMenu() {
+          navLinks.style.right = "-200px";
+        }
+        
+  </body>
+</html>

@@ -1,0 +1,58 @@
+@media (max-width: 488px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    background: #dbdbdb;
+  }
+  .navItems {
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+  }
+  .navItems ul {
+    gap: 15px;
+    color: #fff;
+    border: 1px solid #000;
+  }
+  .navItems ul li a {
+    font-size: 13px;
+  }
+  .firstPageCont {
+    padding: 0px;
+  }
+  .FirstPage {
+    flex-direction: column;
+    height: auto;
+    padding: 0px;
+  }
+
+  .txtCont h1 {
+    font-size: 50px;
+    width: 100%;
+  }
+  .txtCont p {
+    font-size: 15px;
+  }
+  .btns {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .imgCont {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+  .spn1 {
+    display: flex;
+    align-items: center;
+    background-image: url(/Assets/Pics/rectangle1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+  }
+  .spn2{
+    background-image: url(/Assets/Pics/Rectangle2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

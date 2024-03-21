@@ -1,0 +1,17 @@
+@media (max-width: 488px) {
+    nav {
+      flex-direction: column;
+      gap: 10px;
+      background: #000;
+      color: #;
+    }
+    .navItems {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .navItems ul {
+      gap: 15px;
+    }
+    .navItems ul li a {
+      font-size: 13px;
+    }
