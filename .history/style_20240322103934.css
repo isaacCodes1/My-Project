@@ -577,10 +577,8 @@ nav {
   margin-bottom: 50px;
 }
 .featuredImg {
-  margin: 0px 10px;
+  margin-left: 150px;
   display: flex;
-
-  align-items: center;
 }
 .featuredImg img {
   margin-right: 10px;
