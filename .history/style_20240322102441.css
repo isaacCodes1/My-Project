@@ -639,7 +639,7 @@ nav {
 
 .button2:hover {
   transform: translateY(-4px) translateX(-2px);
-  color: #000;
+  color: ;
   box-shadow: 2px 5px 0 0 black;
 }
 

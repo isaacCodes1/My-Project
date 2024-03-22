@@ -630,7 +630,7 @@ nav {
   font-size: 15px;
   text-decoration: none;
   font-weight: 600;
-  padding: 8px 2em;
+  padding: 1em 1em;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   border: 1px solid black;
@@ -639,7 +639,6 @@ nav {
 
 .button2:hover {
   transform: translateY(-4px) translateX(-2px);
-  color: #000;
   box-shadow: 2px 5px 0 0 black;
 }
 
